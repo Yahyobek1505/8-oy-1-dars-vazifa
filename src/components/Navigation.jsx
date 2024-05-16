@@ -6,7 +6,7 @@ import Example from "./LineCharat";
 function Navigation() {
   return (
     <>
-      <div className="flex">
+      <div className="flex max-w-[1240px] mx-auto">
         <div className="bg-[#FAFAFB] flex ml-[24px] -translate-y-60 w-[350px] h-[105px]">
           <img
             src={send}

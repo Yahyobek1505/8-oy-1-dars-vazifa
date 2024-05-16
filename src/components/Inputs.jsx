@@ -3,8 +3,8 @@ import Checkbox from "@mui/material/Checkbox";
 const label = { inputProps: { "aria-label": "Checkbox demo" } };
 function Inputs() {
   return (
-    <>
-      <div className="ml-[16px] mr-[16px] flex gap-[16px] ">
+    <div className="max-w-[1150px] mx-auto">
+      <div className="ml-[16px] mr-[16px] flex gap-[16px]  ">
         <div className="w-[672px] h-[80px]">
           <p>Loyiha nomi</p>
           <OutlinedInput
@@ -46,7 +46,7 @@ function Inputs() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 export default Inputs;

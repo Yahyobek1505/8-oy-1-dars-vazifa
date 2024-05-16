@@ -17,7 +17,7 @@ function SliderTime() {
         <Checkbox {...label} defaultChecked color="success" />
         <p>Habar yuborilmaydigan vaqt</p>
       </div>
-      <Box sx={{ width: 1300 }}>
+      <Box sx={{ width: 1200 }}>
         <Slider
           className="ml-[70px]"
           color="danger"

@@ -11,7 +11,7 @@ import {
 } from "recharts";
 const LineChartComponent = ({ data }) => {
   return (
-    <>
+    <div className="max-w-[800px]">
       <ResponsiveContainer width="40%" height={400}>
         <LineChart
           className="translate-x-[900px] translate-y-14"
@@ -31,7 +31,7 @@ const LineChartComponent = ({ data }) => {
           />
         </LineChart>
       </ResponsiveContainer>
-      <div className="w-[500px] h-[55px] translate-x-[985px] translate-y-24  flex justify-between">
+      <div className="w-[300px] h-[55px] translate-x-[985px] translate-y-24  flex justify-between">
         <div>
           <h1 className="font-bold text-[24px] leading-[36px] tracking-[0.1px] text-black">
             234 ta
@@ -47,7 +47,7 @@ const LineChartComponent = ({ data }) => {
           <img src={losse} className="w-[24px] h-[24px]" alt="" />
         </div>
       </div>
-    </>
+    </div>
   );
 };
 export default LineChartComponent;

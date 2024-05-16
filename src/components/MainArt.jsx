@@ -44,7 +44,7 @@ const data = [
 export default function MainArt() {
   return (
     <>
-      <div>
+      <div className="max-w-[1240px] mx-auto">
         <h1 className="translate-y-[280px] pl-[200px] font-bold text-[22px] leading-[28px] text-[#10384F]">
           Tracking loyihasi
         </h1>

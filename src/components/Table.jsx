@@ -2,7 +2,7 @@ import point from "../assets/Point.svg";
 import Kids from "./Kids";
 function Table() {
   return (
-    <div className="-translate-y-[500px] w-[1,082px] h-[372px] ml-[24px] mt-2">
+    <div className="-translate-y-[500px] w-[640px] h-[372px] mx-auto mt-2">
       <div className="flex justify-between w-[832px] mt-[25px] ml-[25px] mr-[25px] h-[60px]">
         <div>
           <h1 className="font-bold text-[24px] leading-[36px] tracking-[0.1px]">
@@ -90,61 +90,6 @@ function Table() {
           <div className="-translate-y-[416px] translate-x-[500px]">
             <Kids />
           </div>
-          {/* <div className="">
-            <div className="flex flex-col ml-[24px] mt-2">
-              <div className="flex justify-center gap-5 items-center">
-                <img src={point} alt="" className="w-[10px] h-[12px]" />
-                <p>Bolalar uchun</p>
-                <p>15.7k</p>
-              </div>
-            </div>
-          </div>
-          <div className="">
-            <div className="flex flex-col ml-[24px] mt-2 ">
-              <div className="flex justify-center gap-5 items-center">
-                <img src={point} alt="" className="w-[10px] h-[12px]" />
-                <p>Bolalar uchun</p>
-                <p>15.7k</p>
-              </div>
-            </div>
-          </div>
-
-          <div>
-            <div className="flex flex-col ml-[24px] mt-2">
-              <div className="flex justify-center gap-5 items-center">
-                <img src={point} alt="" className="w-[10px] h-[12px]" />
-                <p>Bolalar uchun</p>
-                <p>15.7k</p>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div className="flex flex-col ml-[24px] mt-2">
-              <div className="flex justify-center gap-5 items-center">
-                <img src={point} alt="" className="w-[10px] h-[12px]" />
-                <p>Bolalar uchun</p>
-                <p>15.7k</p>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div className="flex flex-col ml-[24px] mt-2">
-              <div className="flex justify-center gap-5 items-center">
-                <img src={point} alt="" className="w-[10px] h-[12px]" />
-                <p>Bolalar uchun</p>
-                <p>15.7k</p>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div className="flex flex-col ml-[24px] mt-2">
-              <div className="flex justify-center gap-5 items-center">
-                <img src={point} alt="" className="w-[10px] h-[12px]" />
-                <p>Bolalar uchun</p>
-                <p>15.7k</p>
-              </div>
-            </div>
-          </div> */}
         </div>
       </div>
     </div>

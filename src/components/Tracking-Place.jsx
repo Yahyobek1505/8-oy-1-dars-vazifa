@@ -5,8 +5,8 @@ import Stack from "@mui/material/Stack";
 function TrackingPlace() {
   return (
     <>
-      <div className="flex items-center mb-[16px] justify-between">
-        <div className="flex gap-[24px] pt-[6px] pl-[6px] pb-[6px]">
+      <div className="flex items-center mb-[16px] justify-between max-w-[1150px] mx-auto">
+        <div className="flex gap-[2px] pt-[6px] pl-[6px] pb-[6px]">
           <img src={Aroow} alt="" />
           <h1 className="font-bold text-[22px] leading-[36px] tracking-[0.1px]">
             Subloyiha ochish
